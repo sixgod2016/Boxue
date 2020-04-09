@@ -12,7 +12,67 @@
 		AA111A3D243F058B00F25334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA111A3B243F058B00F25334 /* Main.storyboard */; };
 		AA111A3F243F058C00F25334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA111A3E243F058C00F25334 /* Assets.xcassets */; };
 		AA111A42243F058C00F25334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA111A40243F058C00F25334 /* LaunchScreen.storyboard */; };
+		AA111A4A243F064700F25334 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AA111A49243F064700F25334 /* .gitignore */; };
+		AA111A54243F06C200F25334 /* BoxueUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA111A52243F06C200F25334 /* BoxueUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA111A57243F06C200F25334 /* BoxueUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA111A50243F06C200F25334 /* BoxueUIKit.framework */; };
+		AA111A58243F06C200F25334 /* BoxueUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA111A50243F06C200F25334 /* BoxueUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA111A66243F06FE00F25334 /* BoxueDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA111A64243F06FE00F25334 /* BoxueDataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA111A69243F06FE00F25334 /* BoxueDataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA111A62243F06FE00F25334 /* BoxueDataKit.framework */; };
+		AA111A6A243F06FE00F25334 /* BoxueDataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA111A62243F06FE00F25334 /* BoxueDataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA111A77243F071200F25334 /* Boxue_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AA111A75243F071200F25334 /* Boxue_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA111A7A243F071200F25334 /* Boxue_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA111A73243F071200F25334 /* Boxue_iOS.framework */; };
+		AA111A7B243F071200F25334 /* Boxue_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA111A73243F071200F25334 /* Boxue_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA111A89243F086500F25334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA111A8B243F086500F25334 /* InfoPlist.strings */; };
+		AA111A8E243F0BC200F25334 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AA111A8D243F0BC200F25334 /* Cartfile */; };
+		AAFC993A243F14E500644A52 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9932243F14E500644A52 /* PromiseKit.framework */; };
+		AAFC993B243F14E500644A52 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9933243F14E500644A52 /* RxTest.framework */; };
+		AAFC993C243F14E500644A52 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9934243F14E500644A52 /* RxBlocking.framework */; };
+		AAFC993D243F14E500644A52 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9935243F14E500644A52 /* RxSwift.framework */; };
+		AAFC993E243F14E500644A52 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9936243F14E500644A52 /* RxCocoa.framework */; };
+		AAFC993F243F14E500644A52 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9937243F14E500644A52 /* Kingfisher.framework */; };
+		AAFC9940243F14E500644A52 /* KingfisherSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9938243F14E500644A52 /* KingfisherSwiftUI.framework */; };
+		AAFC9941243F14E500644A52 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9939243F14E500644A52 /* RxRelay.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA111A55243F06C200F25334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA111A2C243F058B00F25334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA111A4F243F06C200F25334;
+			remoteInfo = BoxueUIKit;
+		};
+		AA111A67243F06FE00F25334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA111A2C243F058B00F25334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA111A61243F06FE00F25334;
+			remoteInfo = BoxueDataKit;
+		};
+		AA111A78243F071200F25334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA111A2C243F058B00F25334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA111A72243F071200F25334;
+			remoteInfo = Boxue_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA111A5C243F06C200F25334 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA111A58243F06C200F25334 /* BoxueUIKit.framework in Embed Frameworks */,
+				AA111A7B243F071200F25334 /* Boxue_iOS.framework in Embed Frameworks */,
+				AA111A6A243F06FE00F25334 /* BoxueDataKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA111A34243F058B00F25334 /* Boxue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxue.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +82,65 @@
 		AA111A3E243F058C00F25334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA111A41243F058C00F25334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA111A43243F058C00F25334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA111A49243F064700F25334 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		AA111A50243F06C200F25334 /* BoxueUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxueUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA111A52243F06C200F25334 /* BoxueUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxueUIKit.h; sourceTree = "<group>"; };
+		AA111A53243F06C200F25334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA111A62243F06FE00F25334 /* BoxueDataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxueDataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA111A64243F06FE00F25334 /* BoxueDataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxueDataKit.h; sourceTree = "<group>"; };
+		AA111A65243F06FE00F25334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA111A73243F071200F25334 /* Boxue_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Boxue_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA111A75243F071200F25334 /* Boxue_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boxue_iOS.h; sourceTree = "<group>"; };
+		AA111A76243F071200F25334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA111A81243F07AD00F25334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		AA111A82243F07AD00F25334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		AA111A8A243F086500F25334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA111A8C243F086700F25334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		AA111A8D243F0BC200F25334 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		AAFC9932243F14E500644A52 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		AAFC9933243F14E500644A52 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		AAFC9934243F14E500644A52 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		AAFC9935243F14E500644A52 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		AAFC9936243F14E500644A52 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		AAFC9937243F14E500644A52 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		AAFC9938243F14E500644A52 /* KingfisherSwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KingfisherSwiftUI.framework; path = Carthage/Build/iOS/KingfisherSwiftUI.framework; sourceTree = "<group>"; };
+		AAFC9939243F14E500644A52 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA111A31243F058B00F25334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFC993A243F14E500644A52 /* PromiseKit.framework in Frameworks */,
+				AAFC993B243F14E500644A52 /* RxTest.framework in Frameworks */,
+				AAFC993C243F14E500644A52 /* RxBlocking.framework in Frameworks */,
+				AAFC993D243F14E500644A52 /* RxSwift.framework in Frameworks */,
+				AAFC993E243F14E500644A52 /* RxCocoa.framework in Frameworks */,
+				AAFC993F243F14E500644A52 /* Kingfisher.framework in Frameworks */,
+				AAFC9940243F14E500644A52 /* KingfisherSwiftUI.framework in Frameworks */,
+				AAFC9941243F14E500644A52 /* RxRelay.framework in Frameworks */,
+				AA111A57243F06C200F25334 /* BoxueUIKit.framework in Frameworks */,
+				AA111A7A243F071200F25334 /* Boxue_iOS.framework in Frameworks */,
+				AA111A69243F06FE00F25334 /* BoxueDataKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A4D243F06C200F25334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A5F243F06FE00F25334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A70243F071200F25334 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,8 +153,14 @@
 		AA111A2B243F058B00F25334 = {
 			isa = PBXGroup;
 			children = (
+				AA111A49243F064700F25334 /* .gitignore */,
+				AA111A8D243F0BC200F25334 /* Cartfile */,
 				AA111A36243F058B00F25334 /* Boxue */,
+				AA111A51243F06C200F25334 /* BoxueUIKit */,
+				AA111A63243F06FE00F25334 /* BoxueDataKit */,
+				AA111A74243F071200F25334 /* Boxue_iOS */,
 				AA111A35243F058B00F25334 /* Products */,
+				AAFC9931243F14E400644A52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				AA111A34243F058B00F25334 /* Boxue.app */,
+				AA111A50243F06C200F25334 /* BoxueUIKit.framework */,
+				AA111A62243F06FE00F25334 /* BoxueDataKit.framework */,
+				AA111A73243F071200F25334 /* Boxue_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,11 +184,81 @@
 				AA111A3E243F058C00F25334 /* Assets.xcassets */,
 				AA111A40243F058C00F25334 /* LaunchScreen.storyboard */,
 				AA111A43243F058C00F25334 /* Info.plist */,
+				AA111A8B243F086500F25334 /* InfoPlist.strings */,
 			);
 			path = Boxue;
 			sourceTree = "<group>";
 		};
+		AA111A51243F06C200F25334 /* BoxueUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA111A52243F06C200F25334 /* BoxueUIKit.h */,
+				AA111A53243F06C200F25334 /* Info.plist */,
+			);
+			path = BoxueUIKit;
+			sourceTree = "<group>";
+		};
+		AA111A63243F06FE00F25334 /* BoxueDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA111A64243F06FE00F25334 /* BoxueDataKit.h */,
+				AA111A65243F06FE00F25334 /* Info.plist */,
+			);
+			path = BoxueDataKit;
+			sourceTree = "<group>";
+		};
+		AA111A74243F071200F25334 /* Boxue_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA111A75243F071200F25334 /* Boxue_iOS.h */,
+				AA111A76243F071200F25334 /* Info.plist */,
+			);
+			path = Boxue_iOS;
+			sourceTree = "<group>";
+		};
+		AAFC9931243F14E400644A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC9937243F14E500644A52 /* Kingfisher.framework */,
+				AAFC9938243F14E500644A52 /* KingfisherSwiftUI.framework */,
+				AAFC9932243F14E500644A52 /* PromiseKit.framework */,
+				AAFC9934243F14E500644A52 /* RxBlocking.framework */,
+				AAFC9936243F14E500644A52 /* RxCocoa.framework */,
+				AAFC9939243F14E500644A52 /* RxRelay.framework */,
+				AAFC9935243F14E500644A52 /* RxSwift.framework */,
+				AAFC9933243F14E500644A52 /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA111A4B243F06C200F25334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA111A54243F06C200F25334 /* BoxueUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A5D243F06FE00F25334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA111A66243F06FE00F25334 /* BoxueDataKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A6E243F071200F25334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA111A77243F071200F25334 /* Boxue_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AA111A33243F058B00F25334 /* Boxue */ = {
@@ -74,15 +268,74 @@
 				AA111A30243F058B00F25334 /* Sources */,
 				AA111A31243F058B00F25334 /* Frameworks */,
 				AA111A32243F058B00F25334 /* Resources */,
+				AA111A5C243F06C200F25334 /* Embed Frameworks */,
+				AAFC9942243F14FB00644A52 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AA111A56243F06C200F25334 /* PBXTargetDependency */,
+				AA111A68243F06FE00F25334 /* PBXTargetDependency */,
+				AA111A79243F071200F25334 /* PBXTargetDependency */,
 			);
 			name = Boxue;
 			productName = Boxue;
 			productReference = AA111A34243F058B00F25334 /* Boxue.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AA111A4F243F06C200F25334 /* BoxueUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA111A59243F06C200F25334 /* Build configuration list for PBXNativeTarget "BoxueUIKit" */;
+			buildPhases = (
+				AA111A4B243F06C200F25334 /* Headers */,
+				AA111A4C243F06C200F25334 /* Sources */,
+				AA111A4D243F06C200F25334 /* Frameworks */,
+				AA111A4E243F06C200F25334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxueUIKit;
+			productName = BoxueUIKit;
+			productReference = AA111A50243F06C200F25334 /* BoxueUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA111A61243F06FE00F25334 /* BoxueDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA111A6B243F06FE00F25334 /* Build configuration list for PBXNativeTarget "BoxueDataKit" */;
+			buildPhases = (
+				AA111A5D243F06FE00F25334 /* Headers */,
+				AA111A5E243F06FE00F25334 /* Sources */,
+				AA111A5F243F06FE00F25334 /* Frameworks */,
+				AA111A60243F06FE00F25334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxueDataKit;
+			productName = BoxueDataKit;
+			productReference = AA111A62243F06FE00F25334 /* BoxueDataKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA111A72243F071200F25334 /* Boxue_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA111A7C243F071200F25334 /* Build configuration list for PBXNativeTarget "Boxue_iOS" */;
+			buildPhases = (
+				AA111A6E243F071200F25334 /* Headers */,
+				AA111A6F243F071200F25334 /* Sources */,
+				AA111A70243F071200F25334 /* Frameworks */,
+				AA111A71243F071200F25334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boxue_iOS;
+			productName = Boxue_iOS;
+			productReference = AA111A73243F071200F25334 /* Boxue_iOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +350,15 @@
 					AA111A33243F058B00F25334 = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					AA111A4F243F06C200F25334 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AA111A61243F06FE00F25334 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AA111A72243F071200F25334 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 				};
 			};
 			buildConfigurationList = AA111A2F243F058B00F25334 /* Build configuration list for PBXProject "Boxue" */;
@@ -106,6 +368,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = AA111A2B243F058B00F25334;
 			productRefGroup = AA111A35243F058B00F25334 /* Products */;
@@ -113,6 +376,9 @@
 			projectRoot = "";
 			targets = (
 				AA111A33243F058B00F25334 /* Boxue */,
+				AA111A4F243F06C200F25334 /* BoxueUIKit */,
+				AA111A61243F06FE00F25334 /* BoxueDataKit */,
+				AA111A72243F071200F25334 /* Boxue_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -122,13 +388,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA111A8E243F0BC200F25334 /* Cartfile in Resources */,
+				AA111A4A243F064700F25334 /* .gitignore in Resources */,
 				AA111A42243F058C00F25334 /* LaunchScreen.storyboard in Resources */,
 				AA111A3F243F058C00F25334 /* Assets.xcassets in Resources */,
 				AA111A3D243F058B00F25334 /* Main.storyboard in Resources */,
+				AA111A89243F086500F25334 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A4E243F06C200F25334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A60243F06FE00F25334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A71243F071200F25334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAFC9942243F14FB00644A52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KingfisherSwiftUI.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/KingfisherSwiftUI.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PromiseKit.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA111A30243F058B00F25334 /* Sources */ = {
@@ -140,13 +466,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA111A4C243F06C200F25334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A5E243F06FE00F25334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA111A6F243F071200F25334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA111A56243F06C200F25334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA111A4F243F06C200F25334 /* BoxueUIKit */;
+			targetProxy = AA111A55243F06C200F25334 /* PBXContainerItemProxy */;
+		};
+		AA111A68243F06FE00F25334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA111A61243F06FE00F25334 /* BoxueDataKit */;
+			targetProxy = AA111A67243F06FE00F25334 /* PBXContainerItemProxy */;
+		};
+		AA111A79243F071200F25334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA111A72243F071200F25334 /* Boxue_iOS */;
+			targetProxy = AA111A78243F071200F25334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AA111A3B243F058B00F25334 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AA111A3C243F058B00F25334 /* Base */,
+				AA111A81243F07AD00F25334 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +521,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				AA111A41243F058C00F25334 /* Base */,
+				AA111A82243F07AD00F25334 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA111A8B243F086500F25334 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA111A8A243F086500F25334 /* en */,
+				AA111A8C243F086700F25334 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -284,6 +662,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 445BV23GX9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Boxue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +684,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 445BV23GX9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Boxue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +697,174 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA111A5A243F06C200F25334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 445BV23GX9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDM.BoxueUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA111A5B243F06C200F25334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 445BV23GX9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDM.BoxueUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA111A6C243F06FE00F25334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 445BV23GX9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDM.BoxueDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA111A6D243F06FE00F25334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 445BV23GX9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDM.BoxueDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA111A7D243F071200F25334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 445BV23GX9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Boxue_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GDM.Boxue-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA111A7E243F071200F25334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 445BV23GX9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Boxue_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GDM.Boxue-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -331,6 +885,33 @@
 			buildConfigurations = (
 				AA111A47243F058C00F25334 /* Debug */,
 				AA111A48243F058C00F25334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA111A59243F06C200F25334 /* Build configuration list for PBXNativeTarget "BoxueUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA111A5A243F06C200F25334 /* Debug */,
+				AA111A5B243F06C200F25334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA111A6B243F06FE00F25334 /* Build configuration list for PBXNativeTarget "BoxueDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA111A6C243F06FE00F25334 /* Debug */,
+				AA111A6D243F06FE00F25334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA111A7C243F071200F25334 /* Build configuration list for PBXNativeTarget "Boxue_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA111A7D243F071200F25334 /* Debug */,
+				AA111A7E243F071200F25334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Boxue
+
+  Created by GDM on 2020/4/9.
+  Copyright © 2020 GDM. All rights reserved.
+*/
+
+CFBundleName = "Boxue";
