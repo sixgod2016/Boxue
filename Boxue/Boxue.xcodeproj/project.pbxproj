@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AA111A38243F058B00F25334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111A37243F058B00F25334 /* AppDelegate.swift */; };
 		AA111A3A243F058B00F25334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111A39243F058B00F25334 /* ViewController.swift */; };
-		AA111A3D243F058B00F25334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA111A3B243F058B00F25334 /* Main.storyboard */; };
 		AA111A3F243F058C00F25334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA111A3E243F058C00F25334 /* Assets.xcassets */; };
 		AA111A42243F058C00F25334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA111A40243F058C00F25334 /* LaunchScreen.storyboard */; };
 		AA111A4A243F064700F25334 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AA111A49243F064700F25334 /* .gitignore */; };
@@ -25,13 +24,10 @@
 		AA111A89243F086500F25334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA111A8B243F086500F25334 /* InfoPlist.strings */; };
 		AA111A8E243F0BC200F25334 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AA111A8D243F0BC200F25334 /* Cartfile */; };
 		AAFC993A243F14E500644A52 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9932243F14E500644A52 /* PromiseKit.framework */; };
-		AAFC993B243F14E500644A52 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9933243F14E500644A52 /* RxTest.framework */; };
-		AAFC993C243F14E500644A52 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9934243F14E500644A52 /* RxBlocking.framework */; };
 		AAFC993D243F14E500644A52 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9935243F14E500644A52 /* RxSwift.framework */; };
 		AAFC993E243F14E500644A52 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9936243F14E500644A52 /* RxCocoa.framework */; };
 		AAFC993F243F14E500644A52 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9937243F14E500644A52 /* Kingfisher.framework */; };
-		AAFC9940243F14E500644A52 /* KingfisherSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9938243F14E500644A52 /* KingfisherSwiftUI.framework */; };
-		AAFC9941243F14E500644A52 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9939243F14E500644A52 /* RxRelay.framework */; };
+		AAFC9943243F1C0600644A52 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC9939243F14E500644A52 /* RxRelay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +74,6 @@
 		AA111A34243F058B00F25334 /* Boxue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA111A37243F058B00F25334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA111A39243F058B00F25334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA111A3C243F058B00F25334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA111A3E243F058C00F25334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA111A41243F058C00F25334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA111A43243F058C00F25334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,7 +87,6 @@
 		AA111A73243F071200F25334 /* Boxue_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Boxue_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA111A75243F071200F25334 /* Boxue_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boxue_iOS.h; sourceTree = "<group>"; };
 		AA111A76243F071200F25334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA111A81243F07AD00F25334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		AA111A82243F07AD00F25334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AA111A8A243F086500F25334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA111A8C243F086700F25334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -112,14 +106,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFC9943243F1C0600644A52 /* RxRelay.framework in Frameworks */,
 				AAFC993A243F14E500644A52 /* PromiseKit.framework in Frameworks */,
-				AAFC993B243F14E500644A52 /* RxTest.framework in Frameworks */,
-				AAFC993C243F14E500644A52 /* RxBlocking.framework in Frameworks */,
 				AAFC993D243F14E500644A52 /* RxSwift.framework in Frameworks */,
 				AAFC993E243F14E500644A52 /* RxCocoa.framework in Frameworks */,
 				AAFC993F243F14E500644A52 /* Kingfisher.framework in Frameworks */,
-				AAFC9940243F14E500644A52 /* KingfisherSwiftUI.framework in Frameworks */,
-				AAFC9941243F14E500644A52 /* RxRelay.framework in Frameworks */,
 				AA111A57243F06C200F25334 /* BoxueUIKit.framework in Frameworks */,
 				AA111A7A243F071200F25334 /* Boxue_iOS.framework in Frameworks */,
 				AA111A69243F06FE00F25334 /* BoxueDataKit.framework in Frameworks */,
@@ -180,7 +171,6 @@
 			children = (
 				AA111A37243F058B00F25334 /* AppDelegate.swift */,
 				AA111A39243F058B00F25334 /* ViewController.swift */,
-				AA111A3B243F058B00F25334 /* Main.storyboard */,
 				AA111A3E243F058C00F25334 /* Assets.xcassets */,
 				AA111A40243F058C00F25334 /* LaunchScreen.storyboard */,
 				AA111A43243F058C00F25334 /* Info.plist */,
@@ -392,7 +382,6 @@
 				AA111A4A243F064700F25334 /* .gitignore in Resources */,
 				AA111A42243F058C00F25334 /* LaunchScreen.storyboard in Resources */,
 				AA111A3F243F058C00F25334 /* Assets.xcassets in Resources */,
-				AA111A3D243F058B00F25334 /* Main.storyboard in Resources */,
 				AA111A89243F086500F25334 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,29 +419,23 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/KingfisherSwiftUI.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
 			);
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
-				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/KingfisherSwiftUI.framework",
 				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PromiseKit.framework",
-				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
-				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
 				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
 				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -508,15 +491,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA111A3B243F058B00F25334 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA111A3C243F058B00F25334 /* Base */,
-				AA111A81243F07AD00F25334 /* zh-Hans */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AA111A40243F058C00F25334 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
